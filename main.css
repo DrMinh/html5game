@@ -1,0 +1,77 @@
+body{
+    touch-action: none;
+    margin:0%;
+    padding:0%;
+    width:100%;
+    height:100%;
+    background: #FFFFFF;
+    text-align:center;
+    overflow: hidden;
+    position: fixed;
+}
+
+#demoCanvas{
+    touch-action: none;
+    user-select: none;
+    -moz-tap-highlight-color: rgba(141, 90, 90, 0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border:none;
+    padding:0%;
+    margin:0%;
+    background:rgb(255, 255, 255);
+    width:100%;
+    height:100%;
+    display: inline-block;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+}
+/* canvas{display: block; touch-action: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%; cursor: inherit;} */
+#inputArea{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: #000000;
+    height: 100%;
+    /* z-index: 100; */
+    display: none;
+}
+
+#submitUserJoinGame{
+    background: #f2f2f2;
+    color: black;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+#userJoinGameName{
+    background: #999999;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 350px;
+    border: solid 2px white;
+}
+
+.centerBlock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#namerule{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+*,*:focus,*:hover{
+    outline:none;
+}
