@@ -32,7 +32,7 @@
     {
         "id" : 4,
         "name": "Golden turret",
-        "dic" : "+ 1 bullets/- 0.2 speed/Shoot more! detroy more!",
+        "dic" : "[gre]+ 2 bullets per shot/[red]- 0.2 speed/[whi]Shoot more! destroy more!",
         "build": [
             {
                 "id" : 1,
@@ -53,7 +53,7 @@
     {
         "id" : 5,
         "name": "White ammor",
-        "dic" : "+ 20 Armor/Reduce dame from enemy",
+        "dic" : "[gre]+ 20 Armor/[whi]Reduce damage from enemy",
         "build": [
             {
                 "id" : 1,
@@ -66,7 +66,7 @@
     {
         "id" : 6,
         "name": "Yellow ammor",
-        "dic" : "+ 30 Armor/Reduce more dame",
+        "dic" : "[gre]+ 30 Armor/[whi]Reduce more damage",
         "build": [
             {
                 "id" : 5,
@@ -83,7 +83,7 @@
     {
         "id" : 7,
         "name": "Red armor",
-        "dic" : "+ 40 Armor/The best armor",
+        "dic" : "[gre]+ 40 Armor/[whi]The best armor",
         "build": [
             {
                 "id" : 1,
@@ -96,7 +96,7 @@
     {
         "id" : 8,
         "name": "fire ammo",
-        "dic" : "+ 25 damage/take 10 dame after 1 second",
+        "dic" : "[gre]+ 25 damage/[whi]Take 10 dame after 1 second",
         "build": [
             {
                 "id" : 1,
@@ -113,7 +113,7 @@
     {
         "id" : 9,
         "name": "Red chemicals",
-        "dic" : "+ 0.5 speed/Gotta Go Fast!",
+        "dic" : "[gre]+ 0.5 speed/[whi]Gotta Go Fast!",
         "build": [
             {
                 "id" : 1,
